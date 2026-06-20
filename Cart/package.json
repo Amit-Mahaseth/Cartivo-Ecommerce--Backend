@@ -1,12 +1,11 @@
 {
-  "name": "product",
+  "name": "cart",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --detectOpenHandles",
-    "test:watch": "jest --watch",
-    "dev": "nodemon server.js",
+    "test": "jest",
+    "dev": "npx nodemon server.js",
     "start": "node server.js"
   },
   "keywords": [],
@@ -17,15 +16,12 @@
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
-    "imagekit": "^6.0.0",
+    "express-validator": "^7.3.2",
+    "jest": "^30.4.2",
     "jsonwebtoken": "^9.0.3",
-    "mongoose": "^9.7.0",
-    "multer": "^2.2.0",
-    "uuid": "^14.0.0"
+    "mongoose": "^9.7.1"
   },
   "devDependencies": {
-    "jest": "^29.7.0",
-    "mongodb-memory-server": "^9.1.6",
-    "supertest": "^6.3.3"
+    "supertest": "^7.2.2"
   }
 }
